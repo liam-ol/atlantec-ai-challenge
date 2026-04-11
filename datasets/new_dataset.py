@@ -9,8 +9,6 @@ with open("Gaeltacht_Boundaries_Generalised_100m.geojson") as gaeltacht_json, op
     gaeltacht = geopandas.read_file(gaeltacht_json).to_crs(4326)
     towns = geopandas.read_file(towns_json).to_crs(4326)
 
-
-
 gael_towns = towns.loc[towns.within(gaeltacht.union_all())]
 
 gael_towns.to_file("gael_towns.geojson")
