@@ -5,10 +5,12 @@
 
 (Gaeltacht = designated Irish-language predominant areas of Ireland)
 
-### Datasets:
-* [Gaeltacht Boundaries Generalised 100m](https://data.gov.ie/dataset/gaeltacht-boundaries-generalised-100m-national-administrative-boundaries-20151) (Creative Commons Attribution license)
-* [Settlements Generalised 100m](https://data.gov.ie/dataset/settlements-generalised-100m-national-statistical-boundaries-20151) (Creative Commons Attribution license)
+### Datasets (found in `datasets` folder)
+* [Gaeltacht Boundaries Generalised 100m](https://data.gov.ie/dataset/gaeltacht-boundaries-generalised-100m-national-administrative-boundaries-20151) (Published by Tailte Éireann, Creative Commons Attribution license)
+* [Settlements Generalised 100m](https://data.gov.ie/dataset/settlements-generalised-100m-national-statistical-boundaries-20151) (Published by Tailte Éireann, Creative Commons Attribution license)
     * Contains town location coordinates.
+* `gael_towns.geojson`
+    * Our custom list of Gaeltacht towns generated from the above datasets using `new_dataset.py` script in `datasets` folder.
 
 Both of these datasets have ArcGIS GeoService REST API endpoints, our AI agent could query them remotely if we want.
 
