@@ -10,6 +10,7 @@ with open("Gaeltacht_Boundaries_Generalised_100m.geojson") as gaeltacht_json, op
     towns = geopandas.read_file(towns_json)
 
 towns.geometry = geopandas.points_from_xy(towns.EAST,towns.NORTH)
+towns.crs = "epsg:2157"
 
 gael_towns = towns.loc[towns.within(gaeltacht.union_all())]
 

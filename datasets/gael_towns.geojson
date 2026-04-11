@@ -1,7 +1,7 @@
 {
 "type": "FeatureCollection",
 "name": "gael_towns",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3857" } },
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::2157" } },
 "features": [
 { "type": "Feature", "properties": { "OBJECTID_12": 84, "SETTLEMENT": "35005", "SETTL_NAME": "Galway city and suburbs", "EAST": 530120.88638000004, "NORTH": 726533.12725899997, "GUID": "4DB393A8-D39C-4EB9-9320-4B85F38C2A0E" }, "geometry": { "type": "Point", "coordinates": [ 530120.886380000039935, 726533.127258999971673 ] } },
 { "type": "Feature", "properties": { "OBJECTID_12": 101, "SETTLEMENT": "33058", "SETTL_NAME": "Carraig Airt", "EAST": 613238.53864599997, "NORTH": 936660.62131399999, "GUID": "464E6230-E4BC-4845-936E-4CEF6EA3ACBC" }, "geometry": { "type": "Point", "coordinates": [ 613238.538645999971777, 936660.62131399998907 ] } },
